@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 // import { Route, Routes } from "react-router-dom";
-import { DoctorCard } from "./Especialistas/DoctorCard";
+import { CustomDoctorCard } from "./Especialistas/DoctorCard";
 
 function App() {
 

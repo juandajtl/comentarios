@@ -1,77 +1,94 @@
-body {
-  background-color: #000000;
-}
-
-.doctor-card-container {
-  display: flex;
-  width: 100%;
+.doctor-card-container11{
+  /* display:flex;
+  flex-direction: column; */
+  /* display: -ms-flex;
+        display: -webkit-flex; */
+        /* display: flex; */
+  width: 100vh;
   gap: 5px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   padding: 10px;
-  color: #cccccc;
 }
+/* .doctor-card-container11 > div {
+  width: 50%;
+  padding: 10px;
+} */
 
-.doctor-card {
-  width: 300px;
-  background-color: #000000; /*corregir color de las cards*/
+/* .doctor-card-container11 > div:first-child {
+  margin-right: 20px;
+} */
+
+.doctor-card11 {
+  width: 70%;
+  background-color: #ffffff;
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   padding: 36px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.doctor-photo-container11{
+  display: flex;
+  /* flex-direction: row; */
 }
 
-.doctor-card img {
-  width: 100%;
-  height: auto;
+.doctor-description{
+  margin: 20px;
+}
+
+.specialty{
+  margin: 10px;
+}
+
+.doctor-card11 img {
+  width: 50%;
+  height: 50%;
+  /* margin: 20px; */
   border-radius: 8px;
   margin-bottom: 16px;
 }
 
-.doctor-details {
+.doctor-details11 {
   margin-bottom: 16px;
-  display: flex; /* Nueva línea */
-  align-items: center; /* Nueva línea */
 }
 
-.doctor-details h2 {
+.doctor-details11 h2 {
   font-size: 20px;
   margin: 0;
 }
 
-.doctor-details p {
+.doctor-details11 p {
   font-size: 14px;
   margin: 0;
   color: #777777;
 }
 
-.descripcion {
-  flex-grow: 1; /* Nueva línea */
-  margin-left: 16px; /* Nueva línea */
-}
-
-.doctor-rating {
+.doctor-rating11 {
   margin-bottom: 16px;
 }
 
-.doctor-rating h3 {
+.doctor-rating11 h3 {
   font-size: 16px;
   margin: 0;
 }
 
-.star-rating {
+.star-rating11 {
   display: flex;
   align-items: center;
 }
 
-.star-rating .star {
+.star-rating11 .star {
   font-size: 44px;
   color: #cccccc;
   transition: color 0.3s;
   cursor: pointer;
 }
 
-.star-rating .star.selected,
-.star-rating .star:hover {
+.star-rating11 .star.selected,
+.star-rating11 .star:hover {
   color: #ffcb3c;
 }
 
@@ -84,7 +101,7 @@ body {
   resize: none;
 }
 
-button {
+.ver_comentarios {
   background: #39b2ee;
   color: #ffffff;
   border: none;
@@ -94,10 +111,6 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.ver_comentarios:hover {
   background-color: #556f97;
-}
-
-.comentario {
-  background-color: #00000000;
 }
